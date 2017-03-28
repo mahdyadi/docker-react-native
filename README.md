@@ -6,3 +6,5 @@
 * Android-sdk@24.4.1
 * Gradle@2.4
 * React-native-cli@latest
+
+originally modified from https://github.com/navarroaxel/docker-react-native-android
