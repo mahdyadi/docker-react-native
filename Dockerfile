@@ -16,6 +16,8 @@ RUN apt-get update && \
     wget \
     curl \
     git \
+    python -y \
+    python-pip -y \
     unzip -y \
     yarn && \
     apt-get clean
