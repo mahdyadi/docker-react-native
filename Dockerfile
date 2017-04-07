@@ -11,13 +11,15 @@ RUN echo "deb http://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.
 
 # Install base software packages
 RUN apt-get update && \
-    apt-get install software-properties-common \
+    apt-get install -y software-properties-common \
     python-software-properties \
     wget \
     curl \
     git \
-    python -y \
-    python-pip -y \
+    python \
+    python-pip \
+	python-dev \
+	build-essential \
     unzip -y \
     yarn && \
     apt-get clean
